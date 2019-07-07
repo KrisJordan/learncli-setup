@@ -13,7 +13,7 @@ if [ $? ]; then
 	echo ""
 	echo "==============================================================================="
 	echo ""
-	echo "  Welcome to Learn the Command-line!"
+	echo "  Welcome to Learn a Command-line Interface!"
 	echo ""
 	echo "  The files you need to begin learning are installed in the learncli directory."
 	echo ""
