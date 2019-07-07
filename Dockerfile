@@ -1,8 +1,4 @@
-FROM ubuntu:latest
-
-RUN apt-get update && apt-get install -y \
-	git \
-	&& rm -rf /var/lib/apt/lists/*
+FROM learncli/base:latest
 
 ADD setup.sh /
 
