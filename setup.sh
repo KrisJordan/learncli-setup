@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /pwd
+cd /mnt/host
 
 if [ ! -d "learncli" ]; then
 	success=$(git clone -q https://github.com/KrisJordan/learncli)
@@ -17,10 +17,13 @@ if [ $? ]; then
 	echo ""
 	echo "  The files you need to begin learning are installed in the learncli directory."
 	echo ""
-	echo "  To begin, type the each of the following lines and press enter after each."
+	echo "  To begin, type the following line to navigate into the learncli directory:"
 	echo ""
 	echo "    cd learncli"
-	echo "    docker-compose run --rm bash"
+	echo ""
+	echo "  Then, run the appropriate command below to begin a bash shell:"
+	echo "    -  Windows PowerShell, run: ./learncli"
+	echo "    -  MacOS, run: ./learncli.sh"
 	echo ""
 	echo "==============================================================================="
 	echo ""
